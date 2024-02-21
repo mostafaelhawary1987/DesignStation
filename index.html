@@ -1,512 +1,362 @@
+<!DOCTYPE HTML>
+<HTML dir="rtl" lang="ar">
 
-<html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Design Station</title>
-    <link rel="shortcut icon" href="#"/>
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/bootstrap-rtl.min.css"/>
-    <link rel="stylesheet" href="css/fontAwesome-oc.css"/>
-    <link rel="stylesheet" href="css/linearicons.css"/>
-    <link rel="stylesheet" href="css/owl.carousel.min.css"/>
-    <link rel="stylesheet" href="css/animate.css"/>
-    <link rel="stylesheet" href="css/home.css"/>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
+  <title>Desgin Station</title>
+  <link rel='shortcut icon' type='img/png' href='images/logo.png' />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
+  <link rel="stylesheet" href="css/css/fontawesome-all.css" />
+  <link rel="stylesheet" href="css/hover-min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <div class="overlay" id="closeNav"></div>
+    <!-- Start preloader -->
     <div class="pre-loader">
-      <div class="content"><img class="img-responsive" src="images/logo.png" alt="logo"/>
+      <div class="content"><img src="images/logo-b.png" alt="logo" />
         <div class="progress-bar"><span class="bar"><span class="progress"></span></span></div>
       </div>
     </div>
-    <div class="fixed-menu">
-      <div class="menu">
-        <div class="menu-header">
-          <div class="close"><span class="lnr lnr-cross"></span></div>
-          <div class="lang-switcher"><span>العربية</span>
-            <div class="switch"><a href="index.html"> <span>العربية</span></a><a href="index-en.html"><span>English</span></a></div>
+      <!-- Start Header -->
+      <header>
+        <div class="main-head">
+          <div class="container">
+            <div class="head">
+              <div id="openNav">
+                <span><i class="fas fa-bars"></i></span>
+                
+              </div>
+              <div class="side-menu">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">الرئيسية</a>
+                        </li>
+                        <li>
+                            <a href="#">من نحن</a>
+                        </li>
+                        <li>
+                            <a class="down" role="button" data-toggle="collapse" data-target="#gry5"
+                                aria-expanded="false">
+                                خدماتنا
+                            </a>
+                            <ul id="gry5" class="collapse  sub_list">
+                                <li><a href="#">أعمال الطرق والكباري</a></li>
+                                <li><a href="#">أعمال المباني والبنية التحتية</a></li>
+                                <li><a href="#">أعمال الصيانة والتشغيل </a></li>
+                                <li><a href="#">أعمال الكهرباء والميكانيكا</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"> مشاريعنا</a>
+                        </li>
+                        <li>
+                            <a href="#"> عملاؤنا</a>
+                        </li>
+                        <li>
+                            <a href="#"> الأخبار</a>
+                        </li>
+                        <li>
+                            <a href="#"> التوظيف </a>
+                        </li>
+                        <li>
+                            <a href="#">اتصل بنا</a>
+                        </li>
+
+
+                    </ul>
+                    
+                </div>
+
+                
+            </div>
+              <div class="left-icon">
+                <div id="search">
+                 <button type="button" class="close">×</button>
+                    <form>
+                        <input class="nav-search" type="search" value="" placeholder="بحث" />
+                        <button class="btn" type="submit">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </div>
+              <button class="search-bar" type="submit">
+                  <i class="fa fa-search"></i>
+              </button>
+
+              <div class="lang-head">
+                  <a href="index-en.html">En</a>
+
+              </div>
+              </div>
+            </div>
+            <div class="head-title">
+              <img src="images/logo-w.png" class="img-fluid" alt="">
+              <h3>حلول متكاملة لاعمالك</h3>
+            </div>
+            <button class="header-scroll-down-butt" id="scroll-to-about-section"></button>
           </div>
-          
         </div>
-        <ul class="list-unstyled main-list">
-          <li><a href="#">الرئيسية</a></li>
-          <li><a href="#">من نحن</a></li>
-          <li class="slide">حسابي
-            <ul class="list-unstyled sub-list">
-              <li><a href="#">تسجيل دخول</a></li>
-              <li><a href="#">تسجيل جديد</a></li>
-            </ul>
-          </li>
-          <li><a href="#">المفضلة</a></li>
-          <li class="slide">services
-            <ul class="list-unstyled sub-list">
-              <li class="slide-two">Interior Design & Architecture
-                <ul class="list-unstyled sub-list-copy">
-                  <li><a href="#">Collaborating with international interior design consultant</a></li>
-                  <li><a href="#">Customized Furniture design and production</a></li>
-                  <li><a href="#">Architecture</a></li>
-                  <li><a href="#">Facade design and renovation</a></li>
-                  <li><a href="#">Fit out</a></li>
-                  <li><a href="#">Material suppliers</a></li>
-     
-                </ul>
-              </li>
-              <li class="slide-two">Social Luxury Events
-                <ul class="list-unstyled sub-list-copy">
-                  <li><a href="#">Dms(Destination Management services)</a></li>
-                  <li><a href="#">Floral desgin</a></li>
-                  <li><a href="#">Hire Wedding planner</a></li>
-                  <li><a href="#">Furniture production</a></li>
-                  <li><a href="#">Invitation Cards</a></li>
-                  <li><a href="#">Giveaways</a></li>
-                </ul>
-              </li>
-              <li class="slide-two">Corporate Luxury Events
-                <ul class="list-unstyled sub-list-copy">
-                  <li><a href="#">Dms(Destination Management services)</a></li>
-                  <li><a href="#">Brand Activation</a></li>
-                  <li><a href="#">Launch Parties</a></li>
-                  <li><a href="#">Upscale Dinners</a></li>
-                  <li><a href="#">Runway Shows</a></li>
-                  <li><a href="#">Sampling Campaigns</a></li>
-                  <li><a href="#">Client Appreciation Events</a></li>
-                  <li><a href="#">Corporate Anniversary Events</a></li>
-                  <li><a href="#">Private Parties</a></li>
-                  <li><a href="#">Private Concerts & Preformances </a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="#">الإكسسوارات </a></li>
-          <li><a href="#">شنط السفر</a></li>
-          <li><a href="#">العروض</a></li>
-          <li><a href="#">وصل حديثا</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="search-container">
-      <div class="close">
-        <button class="lnr lnr-cross"></button>
-      </div>
-      <div class="zx-search">
-        <input type="text" placeholder="عن ماذا تبحث؟"/>
-        <button class="lnr lnr-magnifier"></button>
-      </div>
-    </div>
-    <div class="upper-nav">
-      <div class="upper-bar">
+      </header>
+      <section class="about-home-section">
         <div class="container">
-          <div class="zx-container">
-            <div class="upper-left"><span>تابعنا على</span><a href="#"><i class="fab fa-snapchat-ghost"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-facebook-f"></i></a></div>
-            <div class="upper-right">
-              <div class="cur-switcher"><span>الريال السعودي</span>
-                <div class="switch"><a href="#"><span>الريال السعودي</span></a><a href="#"><span>الجنيه المصري</span></a></div>
-              </div>
-              <div class="lang-switcher"><span>العربية</span>
-                <div class="switch"><a href="index.html"> <span>العربية</span></a><a href="index-en.html"><span>English</span></a></div>
-              </div>
-              <div class="need-help"><a href="#">هل تحتاج مساعدة؟</a></div>
+          <div class="about-home-flex">
+            <div class="about-home-one">
+              <h2>The Business Hub</h2>
+              <p>فريق ابداعى يعمل على تقديم حلول ابداعية لخدمة افكاركم الأكثر طموحا بطريقة تشغيل متعددة الأوجه وفق خطة اعداد متكاملة لخدمة مشاريعكم و تحقيق اهدافكم بطرق متفردة مصممة خصيصا لكم</p>
+            </div>
+            <div class="about-home-one">
+              <h2>هدفنا</h2>
+              <p>ابتكار نموذج عمل خاص و متميز فى مجال تطوير الاعمال الاستراتيجيى و تعزيز العلامة التجارية و دعمها بالحنلات الترويجية و الاعلانية و تقديم كافة الحلول التى تلبى احتياتكم</p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="nav-bar">
+      </section>
+      <section class="sec-banner-section" style="background-image: url(./images/cat-1.jpg)" >
         <div class="container">
-          <div class="zx-container">
-            <div class="logo-container">
-              <div class="logo"><a href="index.html"><img class="img-responsive" src="images/logo.png" alt="logo"/></a></div>
+            <div class="banner-p">
+                <div class="ban-content">
+                    <h3 class="banner-title wow fadeInDown" data-wow-duration="1.4s" data-wow-delay="0.6s">فريق العمل</h3>
+                    <p class="banner-p wow fadeInDown" data-wow-duration="1.4s" data-wow-delay="0.7s">نحن فريق عمل شغوف نحب ما تقوم به لذلك نحن نعمل على تلبية جميع احتياجاتك لضمان حسن سير خطة العمل على مشروعك و مجالات التطوير الخاصة بك <br>و من جانب اخر نقدم لك بيزنس هب لخدمتك على مدار 24 ساعه أى يمكنك متابعة اعمالك معنا دون الشعور بأى حرج و فى أى وقت</p>
+                </div>
+            </div>    
+        </div>
+      </section>
+      <section class="service-home">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>مجالات عملنا</h4>
             </div>
-            <div class="nav-list">
-              <div class="zx-container">
-                <ul class="list-unstyled list">
-                  <li><a href="#">الرئيسية</a></li>
-                  <li><a href="#">من نحن</a></li>
-                  <li class="mega-hover"><a href="#">services</a>
-                    <div class="mega-menu">
-                      <div class="container">
-                        <div class="zx-mega-container">
-                          <div class="mega-container">
-                            <div class="mega-list">
-                              <div class="list-title">
-                                <p>Interior Design & Architecture</p>
-                              </div>
-                              <ul class="list-unstyled">
-                                <li><a href="#">Collaborating with international interior design consultant</a></li>
-                                <li><a href="#">Customized Furniture design and production</a></li>
-                                <li><a href="#">Architecture</a></li>
-                                <li><a href="#">Facade design and renovation</a></li>
-                                <li><a href="#">Fit out</a></li>
-                                <li><a href="#">Material suppliers</a></li>
-                              </ul>
-                            </div>
-                            <div class="mega-list">
-                              <div class="list-title">
-                                <p>Social Luxury Events</p>
-                              </div>
-                              <ul class="list-unstyled">
-                                <li><a href="#">Dms(Destination Management services)</a></li>
-                                <li><a href="#">Floral desgin</a></li>
-                                <li><a href="#">Hire Wedding planner</a></li>
-                                <li><a href="#">Furniture production</a></li>
-                                <li><a href="#">Invitation Cards</a></li>
-                                <li><a href="#">Giveaways</a></li>
-                              </ul>
-                            </div>
-                            <div class="mega-list">
-                              <div class="list-title">
-                                <p>Corporate Luxury Events</p>
-                              </div>
-                              <ul class="list-unstyled">
-                                <li><a href="#">Dms(Destination Management services)</a></li>
-                                <li><a href="#">Brand Activation</a></li>
-                                <li><a href="#">Launch Parties</a></li>
-                                <li><a href="#">Upscale Dinners</a></li>
-                                <li><a href="#">Runway Shows</a></li>
-                                <li><a href="#">Sampling Campaigns</a></li>
-                                <li><a href="#">Client Appreciation Events</a></li>
-                                <li><a href="#">Corporate Anniversary Events</a></li>
-                                <li><a href="#">Private Parties</a></li>
-                                <li><a href="#">Private Concerts & Preformances </a></li>
-                              </ul>
-                            </div>
-                            <!-- <div class="mega-img"><a href="#"><img class="img-responsive" src="images/mega-img-1.jpg" alt=""/></a></div> -->
-                          </div>
-                          <div class="mega-brands">
-                            <div class="img-container"><a href="#"><img class="img-responsive" src="images/mega-img-2.jpg" alt=""/></a></div>
-                            <div class="img-container"><a href="#"><img class="img-responsive" src="images/mega-img-3.jpg" alt=""/></a></div>
-                            <div class="img-container"><a href="#"><img class="img-responsive" src="images/mega-img-4.jpg" alt=""/></a></div>
-                            <div class="img-container"><a href="#"><img class="img-responsive" src="images/mega-img-5.jpg" alt=""/></a></div>
-                            <div class="img-container"><a href="#"><img class="img-responsive" src="images/mega-img-6.jpg" alt=""/></a></div>
-                            <div class="img-container"><a href="#"><img class="img-responsive" src="images/mega-img-7.jpg" alt=""/></a></div>
-                            <div class="img-container"><a href="#"><img class="img-responsive" src="images/mega-img-8.jpg" alt=""/></a></div>
-                            <div class="img-container"><a href="#"><img class="img-responsive" src="images/mega-img-9.jpg" alt=""/></a></div>
-                            <div class="img-container"><a href="#"><img class="img-responsive" src="images/mega-img-10.jpg" alt=""/></a></div>
-                            <div class="img-container"><a href="#"><img class="img-responsive" src="images/mega-img-11.jpg" alt=""/></a></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="mega-hover"><a href="#">الإكسسوارات </a></li>
-                  <li class="mega-hover"><a href="#">شنط السفر</a></li>
-                  <li><a href="#">العروض</a></li>
-                  <li><a href="#">وصل حديثا</a></li>
-                </ul>
+            <div class="col-md-6">
+              <div class="serv">
+                <div class="icon">
+                  <img src="images/12.png" class="img-fluid" alt="">
+                  <div class="serv-blog">
+  
+                    <span>تصميم و تطوير الهويات</span>
+                    <p>ابتكار نموذج عمل خاص و متميز فى مجال تطوير الاعمال الاستراتيجيى و تعزيز العلامة التجارية و دعمها بالحنلات الترويجية و الاعلانية و تقديم كافة الحلول التى تلبى احتياتكم</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="icons">
-              <div class="menu-icon icon-container"><a href="#!"><i class="lnr lnr-menu"></i></a></div>
-              <div class="search-icon icon-container"><a href="#!"><i class="lnr lnr-magnifier"></i></a></div>
-              <div class="user-icon icon-container"><a href="#!"><i class="lnr lnr-user"></i></a>
-                <div class="switch"><a href="#"> <span>تسجيل دخول</span></a><a href="#"><span>تسجيل جديد</span></a></div>
+            <div class="col-md-6">
+              <div class="serv">
+                <div class="icon">
+                  <img src="images/13.png" class="img-fluid" alt="">
+                  <div class="serv-blog">
+                  <span>تنظيم المناسبات و الفعاليات</span>
+                  
+                  <p>ابتكار نموذج عمل خاص و متميز فى مجال تطوير الاعمال الاستراتيجيى و تعزيز العلامة التجارية و دعمها بالحنلات الترويجية و الاعلانية و تقديم كافة الحلول التى تلبى احتياتكم</p>
+                </div>
+                </div>
               </div>
-              <div class="fav-icon icon-container"><a href="#!"><i class="lnr lnr-heart"></i></a></div>
-              <div class="cart-icon icon-container"><a href="#!"><i class="lnr lnr-cart"></i></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="serv">
+                <div class="icon">
+                  <img src="images/14.png" class="img-fluid" alt="">
+                  <div class="serv-blog">
+                  <span>العلاقات العامة</span>
+                  <p>ابتكار نموذج عمل خاص و متميز فى مجال تطوير الاعمال الاستراتيجيى و تعزيز العلامة التجارية و دعمها بالحنلات الترويجية و الاعلانية و تقديم كافة الحلول التى تلبى احتياتكم</p>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="serv">
+                <div class="icon">
+                  <img src="images/15.png" class="img-fluid" alt="">
+                  <div class="serv-blog">
+                  <span>ادارة الحملات الترويجية عبر الانترنت</span>
+                  <p>ابتكار نموذج عمل خاص و متميز فى مجال تطوير الاعمال الاستراتيجيى و تعزيز العلامة التجارية و دعمها بالحنلات الترويجية و الاعلانية و تقديم كافة الحلول التى تلبى احتياتكم</p>
+                </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="header">
-      <div class="owl-carousel">
-        <div class="slide"><a href="#">
-            <div class="overlay">
-              <div class="inner">
-                <p>مجموعة جديدة</p>
-                <h2>من الآثاث المنزلي الحديث</h2>
-                <button>تسوق الآن</button>
+      </section>
+      <section class="portfolio-home">
+        <div class="portfolio-home-flex">
+          <div class="porto-photo" style="background-image: url(./images/cat-1.jpg)">
+            <h3>اعمالنا</h3>
+          </div>
+          <div class="porto-link">
+            <a href="#!">
+              شاهدالمزيد
+              <span><i class="fas fa-chevron-left"></i></span>
+            </a>
+          </div>
+         
+         
+        </div>
+      </section>
+      <section class="more-home">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="more-photo">
+                <img src="images/123.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="more-text">
+                <h4> تعزيز العلامة التجارية</h4>
+                <p>ابتكار نموذج عمل خاص و متميز فى مجال تطوير الاعمال الاستراتيجيى و تعزيز العلامة التجارية و دعمها بالحنلات الترويجية و الاعلانية و تقديم كافة الحلول التى تلبى احتياتكم</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="more-text">
+                <h4>تقديم كافة الحلول</h4>
+                <p>ابتكار نموذج عمل خاص و متميز فى مجال تطوير الاعمال الاستراتيجيى و تعزيز العلامة التجارية و دعمها بالحنلات الترويجية و الاعلانية و تقديم كافة الحلول التى تلبى احتياتكم</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="more-photo">
+                <img src="images/123.jpg" class="img-fluid" alt="">
               </div>
             </div>
             
-            <img class="img-responsive" src="images/slider-1.jpg" alt=""/></a></div>
-        <div class="slide"><a href="#">
-            <div class="overlay">
-              <div class="inner">
-                <p>مجموعة جديدة</p>
-                <h2>من الآثاث المنزلي الحديث</h2>
-                <button>تسوق الآن</button>
+            
+          </div>
+        </div>
+      </section>
+      <section class="brands-home">
+        <div class="brands">
+          <div class="container">
+            <h2>عملائنا</h2>
+              <div class="brand_slider owl-carousel">
+                  <div class="item brand">
+                      <div class="br_photo">
+                          <img src="images/mega-img-10.jpg" class="img-fluid" alt="brand">
+                      </div>
+                  </div>
+                  <div class="item brand">
+                      <div class="br_photo">
+                          <img src="images/mega-img-11.jpg" class="img-fluid" alt="brand">
+                      </div>
+                  </div>
+                  <div class="item brand">
+                      <div class="br_photo">
+                          <img src="images/mega-img-3.jpg" class="img-fluid" alt="brand">
+                      </div>
+                  </div>
+                  <div class="item brand">
+                      <div class="br_photo">
+                          <img src="images/mega-img-4.jpg" class="img-fluid" alt="brand">
+                      </div>
+                  </div>
+                  <div class="item brand">
+                    <div class="br_photo">
+                        <img src="images/mega-img-11.jpg" class="img-fluid" alt="brand">
+                    </div>
+                  </div>
+                  <div class="item brand">
+                    <div class="br_photo">
+                        <img src="images/mega-img-3.jpg" class="img-fluid" alt="brand">
+                    </div>
+                  </div>
+
               </div>
-            </div><img class="img-responsive" src="images/slider-2.jpg" alt=""/></a></div>
-        <div class="slide"><a href="#">
-            <div class="overlay">
-              <div class="inner">
-                <p>مجموعة جديدة</p>
-                <h2>من الآثاث المنزلي الحديث</h2>
-                <button>تسوق الآن</button>
-              </div>
-            </div><img class="img-responsive" src="images/slider-1.jpg" alt=""/></a></div>
-        <div class="slide"><a href="#">
-            <div class="overlay">
-              <div class="inner">
-                <p>مجموعة جديدة</p>
-                <h2>من الآثاث المنزلي الحديث</h2>
-                <button>تسوق الآن</button>
-              </div>
-            </div><img class="img-responsive" src="images/slider-2.jpg" alt=""/></a></div>
+          </div>
+  
       </div>
-    </div>
-    <div class="cats">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="cat"><a href="#">
-              <div class="cat-img"><img class="img-responsive" src="images/cat-1.jpg" alt=""/></div>
-              <div class="overlay">
-                <div class="inner">
-                  <p>الآثاث المنزلي</p>
-                  <button>تسوق الآن</button>
+  
+      </section>
+
+      <section class="center-section" style="background-image: url(./images/cat-1.jpg)" >
+        <div class="container">
+            <div class="center-blogs">
+              <h3>ماذا تقصد بمركز الاعمال</h3>
+              <p>ابتكار نموذج عمل خاص و متميز فى مجال تطوير الاعمال الاستراتيجيى و تعزيز العلامة التجارية و دعمها بالحنلات الترويجية و الاعلانية و تقديم كافة الحلول التى تلبى احتياتكم</p>
+            <div class="cent-blog">
+              <div class="cent-one">
+                <span>01</span>
+                <p>خطط التشغيل و التنفيذ</p>
+              </div>
+              <div class="cent-one">
+                <span>02</span>
+                <p>خطط التسويق</p>
+              </div>
+              <div class="cent-one">
+                <span>03</span>
+                <p>خطط الاعلان و الترويج و حملات العلاقات العامة </p>
+              </div>
+              <div class="cent-one">
+                <span>04</span>
+                <p>كما نقدم استشارات متنوعة المشاريع المتعثرة بهدف تطويرها وزيادة مبيعاتها</p>
+              </div>
+            </div>
+            </div>
+        </div>
+      </section>
+      <section class="subscribe-home">
+        <div class="container">
+        <div class="contact-info">
+                 
+          <div class="sub">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M160 448c-25.6 0-51.2-22.4-64-32-64-44.8-83.2-60.8-96-70.4V480c0 17.7 14.3 32 32 32h256c17.7 0 32-14.3 32-32V345.6c-12.8 9.6-32 25.6-96 70.4-12.8 9.6-38.4 32-64 32zm128-192H32c-17.7 0-32 14.3-32 32v16c25.6 19.2 22.4 19.2 115.2 86.4 9.6 6.4 28.8 25.6 44.8 25.6s35.2-19.2 44.8-22.4c92.8-67.2 89.6-67.2 115.2-86.4V288c0-17.7-14.3-32-32-32zm256-96H224c-17.7 0-32 14.3-32 32v32h96c33.2 0 60.6 25.4 63.7 57.8l.3-.2V416h192c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-32 128h-64v-64h64v64zm-352-96c0-35.3 28.7-64 64-64h224V32c0-17.7-14.3-32-32-32H96C78.3 0 64 14.3 64 32v192h96v-32z"/></svg>
+            <input type="text" placeholder="ادخل البريد الالكترونى"/>
+            <button><i class="fas fa-check"></i></button>
+          </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="foot-title">
+            <h2>مركز الاعمال</h2>
+            <p>فريق عمل شغوف نحب ما تقوم به لذلك نحن نعمل على تلبية جميع احتياجاتك لضمان حسن سير خطة العمل على مشروعك و مجالات التطوير الخاصة بك
+              و من جانب اخر نقدم لك بيزنس هب لخدمتك على مدار 24 ساعه أى يمكنك متابعة اعمالك معنا دون الشعور بأى حرج و فى أى وقت</p>
+            <!-- <div class="foot-logo">
+                <img src="images/logo-w.png" class="img-fluid">
+            </div> -->
+            <div class="foot-menu">
+                  <ul class="list-unstyled foot-nav">
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#">من نحن</a></li>
+                    <li><a href="#">مجالات عملنا</a></li>
+                    <li><a href="#">أعمالنا</a></li>
+                    <li><a href="#">حجز موعد</a></li>
+                    <li><a href="#">اتصل بنا</a></li>
+
+                  </ul>
                 </div>
-              </div></a></div>
+                <div class="footer-icons"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-snapchat-ghost"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-twitter"></i></a></div>
+            </div>
         </div>
-        <div class="col-md-6">
-          <div class="cat"><a href="#">
-              <div class="cat-img"><img class="img-responsive" src="images/cat-2.jpg" alt=""/></div>
-              <div class="overlay">
-                <div class="inner">
-                  <p>الآثاث المكتبي</p>
-                  <button>تسوق الآن</button>
-                </div>
-              </div></a></div>
+      </footer>
+      <div class="section-contact-map">
+        <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe width="100%" height="380px" id="gmap_canvas" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317719.5877495047!2d-0.4312316281021684!3d51.52817979531493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2seg!4v1708429305957!5m2!1sen!2seg"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               
+            </div>
         </div>
-        <div class="col-md-6">
-          <div class="cat"><a href="#">
-              <div class="cat-img"><img class="img-responsive" src="images/cat-3.jpg" alt=""/></div>
-              <div class="overlay">
-                <div class="inner">
-                  <p>الإكسسوارات</p>
-                  <button>تسوق الآن</button>
-                </div>
-              </div></a></div>
-        </div>
-        <div class="col-md-6">
-          <div class="cat"><a href="#">
-              <div class="cat-img"><img class="img-responsive" src="images/cat-4.jpg" alt=""/></div>
-              <div class="overlay">
-                <div class="inner">
-                  <p>شنط السفر</p>
-                  <button>تسوق الآن</button>
-                </div>
-              </div></a></div>
-        </div>
-      </div>
     </div>
-    <div class="sp-offers">
-      <div class="container">
-        <div class="sp-offers-header">
-          <h3>المنتجات الأكثر مشاهدة</h3>
-        </div>
-        <div class="owl-carousel">
-          <div class="card">
-            <div class="offer">خصم %10</div>
-            <div class="card-img"><a href="#"><img class="img-responsive" src="images/product-1.jpg" alt=""/></a></div>
-            <div class="card-body">
-              <div class="title"><a href="#">اسم منتج تجريبي</a></div>
-              <div class="rate"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
-              <div class="price">
-                <div class="new">299 ريال</div>
-                <div class="old">350 ريال</div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-img"><a href="#"><img class="img-responsive" src="images/product-2.jpg" alt=""/></a></div>
-            <div class="card-body">
-              <div class="title"><a href="#">اسم منتج تجريبي</a></div>
-              <div class="rate"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
-              <div class="price">
-                <div class="new">299 ريال</div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="offer">خصم %10</div>
-            <div class="card-img"><a href="#"><img class="img-responsive" src="images/product-3.jpg" alt=""/></a></div>
-            <div class="card-body">
-              <div class="title"><a href="#">اسم منتج تجريبي</a></div>
-              <div class="rate"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
-              <div class="price">
-                <div class="new">299 ريال</div>
-                <div class="old">350 ريال</div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-img"><a href="#"><img class="img-responsive" src="images/product-4.jpg" alt=""/></a></div>
-            <div class="card-body">
-              <div class="title"><a href="#">اسم منتج تجريبي</a></div>
-              <div class="rate"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
-              <div class="price">
-                <div class="new">299 ريال</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="copy">
+    <div class="container">
+           <p>جميع الحقوق محفوظة </p>              
+    
     </div>
-    <div class="panner">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="img-container"><a href="#"><img class="img-responsive" src="images/panner-1.jpg" alt=""/></a></div>
-          </div>
-        </div>
-      </div>
     </div>
-    <div class="sp-offers">
-      <div class="container">
-        <div class="sp-offers-header">
-          <h3>العروض المميزة</h3>
-        </div>
-        <div class="owl-carousel">
-          <div class="card">
-            <div class="offer">خصم %10</div>
-            <div class="card-img"><a href="#"><img class="img-responsive" src="images/product-1.jpg" alt=""/></a></div>
-            <div class="card-body">
-              <div class="title"><a href="#">اسم منتج تجريبي</a></div>
-              <div class="rate"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
-              <div class="price">
-                <div class="new">299 ريال</div>
-                <div class="old">350 ريال</div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="offer">خصم %10</div>
-            <div class="card-img"><a href="#"><img class="img-responsive" src="images/product-5.jpg" alt=""/></a></div>
-            <div class="card-body">
-              <div class="title"><a href="#">اسم منتج تجريبي</a></div>
-              <div class="rate"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
-              <div class="price">
-                <div class="new">299 ريال</div>
-                <div class="old">350 ريال</div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="offer">خصم %10</div>
-            <div class="card-img"><a href="#"><img class="img-responsive" src="images/product-3.jpg" alt=""/></a></div>
-            <div class="card-body">
-              <div class="title"><a href="#">اسم منتج تجريبي</a></div>
-              <div class="rate"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
-              <div class="price">
-                <div class="new">299 ريال</div>
-                <div class="old">350 ريال</div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="offer">خصم %10</div>
-            <div class="card-img"><a href="#"><img class="img-responsive" src="images/product-6.jpg" alt=""/></a></div>
-            <div class="card-body">
-              <div class="title"><a href="#">اسم منتج تجريبي</a></div>
-              <div class="rate"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
-              <div class="price">
-                <div class="new">299 ريال</div>
-                <div class="old">350 ريال</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="service">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="serv">
-              <div class="icon"><i class="lnr lnr-star"></i><span>خامات أصلية %100 ومنتجات مصنعة بعناية</span></div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="serv">
-              <div class="icon"><i class="lnr lnr-lock"></i><span>وسائل دفع متعددة وآمنة عبر بوابات الدفع الموثوقة</span></div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="serv">
-              <div class="icon"><i class="lnr lnr-users"></i><span>نعمل جاهدين لضمان تقديم خدمة متميزة</span></div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="serv">
-              <div class="icon"><i class="lnr lnr-rocket"></i><span>شحن سريع ومجاني للطلبات أكثر من 299 ريال</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-            <div class="footer-list">
-              <h3 class="list-header">معلومات</h3>
-              <ul class="list-unstyled footer-slide">
-                <li><a href="#">من نحن</a></li>
-                <li><a href="#">الشحن والتوصيل</a></li>
-                <li><a href="#">الحسابات البنكية</a></li>
-                <li><a href="#">الخصوصية</a></li>
-                <li><a href="#">شروط الإستخدام</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="footer-list">
-              <h3 class="list-header">إضافات</h3>
-              <ul class="list-unstyled footer-slide">
-                <li><a href="#">الشركات</a></li>
-                <li><a href="#">قسائم الهدايا</a></li>
-                <li><a href="#">نظام العمولة</a></li>
-                <li><a href="#">العروض المميزة</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="footer-list">
-              <h3 class="list-header">خدمة العملاء</h3>
-              <ul class="list-unstyled footer-slide">
-                <li><a href="#">اتصل بنا</a></li>
-                <li><a href="#">ارجاع الطلب</a></li>
-                <li><a href="#">خريطة الموقع</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="footer-list">
-              <h3 class="list-header">حسابي</h3>
-              <ul class="list-unstyled footer-slide">
-                <li><a href="#">حسابى</a></li>
-                <li><a href="#">طلباتى</a></li>
-                <li><a href="#">قائمة رغباتى</a></li>
-                <li><a href="#">القائمة البريدية</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="contact-info">
-              <h3 class="info-header">اشترك في النشرة البريدية</h3>
-              <p> اشترك في النشرة البريدية ليصلك جديد عروضنا ومنتجاتنا</p>
-              <div class="sub">
-                <input type="text" placeholder="ادخل بريدك الإلكتروني"/>
-                <button class="lnr lnr-arrow-left"></button>
-              </div>
-              <div class="footer-icons"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-snapchat-ghost"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-twitter"></i></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="copy-container">
-          <div class="copyrights"><span> ©  جميع الحقوق محفوظة شركة بن شيهون 2020 </span></div>
-          <div class="payment"><img class="img-responsive" src="images/payment.png" alt=""/></div>
-        </div>
-      </div>
-    </div>
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script> 
     <script src="js/main.js"></script>
-    <script src="http://localhost:35729/livereload.js"></script>
-  </body>
-</html>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</HTML>
