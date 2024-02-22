@@ -64,7 +64,7 @@ $('.brand_slider').owlCarousel({
     rtl:true,
     loop: false,
     margin:18,
-    nav:true,
+    nav:false,
     navText: ["<i class='fas fa-chevron-right'></i>","<i class='fas fa-chevron-left'></i>"],
     responsive:{
         0:{
