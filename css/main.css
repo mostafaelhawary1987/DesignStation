@@ -2219,3 +2219,152 @@ footer {
       background-color: var(--main-color);
   }
   /* .contact-page-in{position: relative;z-index: -1;} */
+  /* <!-- About-Page --> */
+  .about-flex{
+    display: flex;
+    text-align: start;
+    align-items: start;
+      justify-content: space-between;
+      padding-top: 25px;
+      padding-bottom: 45px;
+  }
+  .about-page-in .container{background-color: white;}
+  .about-flex img{
+    width: 40%;
+      text-align: center;
+      border-radius: 15px;
+  }
+  .about-page-in span{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--sec-color);
+  
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    margin-bottom: 30px;
+    width: 50%;
+    line-height: 35px;
+    text-align: justify;
+  }
+  .title-center {
+    width: 100%;
+    text-align: center;
+}
+  .title-center h2{
+    margin-top: 35px;
+    margin-bottom: 45px;
+    font-size: 38px;
+    font-family: 'tjMd';
+    display: inline-block;
+    position: relative;
+    color: var(--main-color);
+  }
+  .title-center h2::before {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 2px;
+    right: -28px;
+    bottom: 4px;
+    background-color: var(--sec-color);
+    transform: translateX(50%);
+}
+.title-center h2::after {
+  content: "";
+  position: absolute;
+  width: 21px;
+  height: 2px;
+  left: -50px;
+  bottom: 4px;
+  background-color: var(--sec-color);
+  transform: translateX(50%);
+}
+  @media(max-width:480px) {
+  .course-photo>img {
+    height: 40vh;
+  }}
+  .members{padding-top: 40px;}
+  .member-type{
+    padding-top: 30px;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.member-fi{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 410px;
+    width: 345px;
+    background-color: #F8F8F8;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 15px;
+}
+.mem-photo{   
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  background-color: var(--white-color);
+  justify-content: center;
+  border-radius: 50%;
+  /* border: 12px solid var(--hover-color); */
+  justify-content: center;
+  }
+.men-photo{    height: 43px;
+    width: 54px;}
+
+.mem-text h2{
+    color: var(--main-color);
+    font-size: 25px;
+    font-family: "tjBold";
+}    
+.mem-text{
+    border-bottom: 1px solid #a9a6a6cc;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+.mem-title p{
+    color: var(--main-color);
+    text-align: justify;
+    line-height: 25px;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 18px;
+
+}
+@media (max-width: 768px){
+.about-flex {
+    flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+.about-page-in span {
+  width: 95%;
+  font-size: 17px;
+}
+.about-flex img {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 15px;
+
+}
+}
+
+
+
+@media (max-width: 480px){
+.about-page-in span {
+    font-size: 20px;
+    width: 85%;
+    margin-bottom: 28px;
+    width: 95%;
+    line-height: 34px;
+}}
