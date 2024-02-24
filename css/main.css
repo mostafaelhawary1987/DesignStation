@@ -149,7 +149,9 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-color: var(--primary-color);
 }
-
+html {
+  scroll-behavior: smooth;
+}
 html {
   scrollbar-width: thin;
   scrollbar-color: var(--primary-color) var(--back-color);
@@ -2216,6 +2218,7 @@ footer {
     .page .main-head {
       background: none;
       height: 100px;
+      transform: none;
       background-color: var(--main-color);
   }
   /* .contact-page-in{position: relative;z-index: -1;} */
@@ -2368,3 +2371,54 @@ footer {
     width: 95%;
     line-height: 34px;
 }}
+
+/* ---------crumb-head---------- */
+.crumb-head{
+  background-color:#1c1c1cfc; 
+  padding: 10px 0px;
+}
+.crumb-title{    display: flex;
+  flex-direction: column;
+  align-items:start;
+
+  justify-content: center;
+  padding: 10px 0px;}
+  .crumb-title h2{
+      position: relative;
+      color: #fff;
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-family: "tjBold";
+  }
+  .crumb-title h2::before {
+      content: "";
+      position: absolute;
+      width: 68px;
+      height: 4px;
+      left: 50%;
+      top:45px;
+      border-radius: 10px;
+      background-color: var(--hover-color);
+      transform: translateX(-50%);
+  }
+  .bread{display: flex;
+    align-items: start;
+    justify-content: start;
+    margin: 0;
+    padding: 0;}
+  .bread li a{font-size: 18px;
+      color: #fff;
+      margin: 0px 5px;
+      font-family: "tjMd";
+      -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  
+  }
+  .bread li a:hover{color: #BD892C;}
+  .bread li {font-size: 18px;
+      color: #fff;list-style-type: none;
+      font-family: "tjMd";}
